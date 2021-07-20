@@ -10,7 +10,7 @@ import androidx.core.content.ContextCompat
 import com.liceadev.spinnerdialcode.databinding.ItemCountryDropBinding
 
 
-class SpinnerCountryAdapter(context: Context?) : ArrayAdapter<DialCodeCountry?>(context!!, 0) {
+internal class SpinnerCountryAdapter(context: Context?) : ArrayAdapter<DialCodeCountry?>(context!!, 0) {
 
     private val mLayoutInflater: LayoutInflater = LayoutInflater.from(context)
 

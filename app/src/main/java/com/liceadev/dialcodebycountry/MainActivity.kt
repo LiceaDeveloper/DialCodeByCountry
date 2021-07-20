@@ -13,11 +13,11 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
 
-        val index = binding.spi1.countriesList.indexOfFirst { it.dialCode == "+52" }
-        binding.spi1.setSelection(index)
+        val index = binding.spCountry.countriesList.indexOfFirst { it.dialCode == "+52" }
+        binding.spCountry.setSelection(index)
 
 
-        binding.spi1.onItemSelected {
+        binding.spCountry.onItemSelected {
             binding.textView.text = it.name
         }
     }
