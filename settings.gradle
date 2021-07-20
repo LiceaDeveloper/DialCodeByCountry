@@ -1,0 +1,3 @@
+include ':SpinnerDialCode'
+include ':app'
+rootProject.name = "DialCodeByCountry"
